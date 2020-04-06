@@ -1,0 +1,132 @@
+body {
+    font-family: "Avenir Next";
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    color: #000;
+    height: 90px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  .header-image-logo{
+    width: 100px;
+    padding: 20px 40px;
+  }
+  
+  .header-list li {
+    float: right;
+    padding: 33px 20px;
+  }
+  
+  .main {
+    padding: 100px 80px;
+    text-align: center;
+    justify-content: center;
+  }
+  .copy-container {
+    display: flex;
+  }
+  
+  .copy-container h1 {
+    font-size: 50px;
+  }  
+  .copy-container h2 {
+    font-size: 32px;
+  }
+  .copy-container img {
+    width: 150px;
+    height: 100%;
+    padding: 20px;
+     }
+  .img-blue {
+    margin-top: 20px;
+  }
+  .img-yellow {
+    margin-top: 60px;
+  }
+  .copy-container span {
+    color: yellow;
+  }
+  
+  .contents {
+    height: 500px;
+    margin-top: 100px;
+    text-align: center; 
+    justify-content: center;
+    }
+  .clear {
+      clear:both;
+    }
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .contents-item {
+    position: relative;
+    /* left: 50%; */
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+    width: 250px;
+  }
+  .contents-item img{
+    width: 200px;
+  }
+  
+  .contact-form {
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  /* Add CSS for <input> and <textarea> tags */
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  /* Add CSS for contact-submit */
+  .contact-submit {
+    background-color:#dee7ec;
+    color:#889eab;
+  }
+  
+  .footer {
+    background-color: #d9b009;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+  
